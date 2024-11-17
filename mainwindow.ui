@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="ImageViewer">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Image viewer</string>
+        </property>
+        <widget class="QWidget" name="centralWidget">
+            <property name="styleSheet">
+                <string>
+                    QWidget#centralWidget {
+                        background-color: white;
+                    }
+                    QPushButton#pushButton1 {
+                        background-color: red;
+                        color: white;
+                        margin: 1px;
+                        padding: 1px;
+                        border-radius: 3px;
+                    }
+                    QPushButton#pushButton2 {
+                        background-color: green;
+                        color: white;
+                        margin: 1px;
+                        padding: 1px;
+                        border-radius: 3px;
+                    }
+                    QPushButton#pushButton3 {
+                        background-color: blue;
+                        color: white;
+                        margin: 1px;
+                        padding: 1px;
+                        border-radius: 3px;
+                    }
+                    QPushButton#pushButton4 {
+                        background-color: yellow;
+                        color: black;
+                        margin: 1px;
+                        padding: 1px;
+                        border-radius: 3px;
+                    }
+                </string>
+            </property>
+            <widget class="QPushButton" name="pushButton1">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>1</y>
+                        <width>65</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Zoom In</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton2">
+                <property name="geometry">
+                    <rect>
+                        <x>80</x>
+                        <y>1</y>
+                        <width>75</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>zoom Out</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton3">
+                <property name="geometry">
+                    <rect>
+                        <x>155</x>
+                        <y>1</y>
+                        <width>65</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Files</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton4">
+                <property name="geometry">
+                    <rect>
+                        <x>220</x>
+                        <y>1</y>
+                        <width>65</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Save</string>
+                </property>
+            </widget>
+        </widget>
+        <action name="actionExit">
+            <property name="text">
+                <string>Exit</string>
+            </property>
+        </action>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

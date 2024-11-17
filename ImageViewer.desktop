@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ImageViewer
+Comment=A simple image viewer application
+Exec=/home/faizan/Desktop/ImageViewerProject/ImageViewer
+Icon=/home/faizan/Desktop/ImageViewerProject/resources/icon.png
+Terminal=false
+
